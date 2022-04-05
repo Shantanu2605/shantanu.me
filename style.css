@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&family=Fredoka:wght@300&family=Noto+Sans:wght@700&family=Russo+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+p{
+    color: gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, cursive;
+    font-size: 20px;
+    text-transform: none;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+  }
+#home h1{
+  font-size: xx-large;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  padding: 30px;
+  padding-top: 226px;
+}
+
+#home p{
+  padding-top: 100px;
+  text-transform: none;
+  font-family:'Bitter', serif;
+}
+.h-secondary{
+  color: purple;
+}
+#blog{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: none;
+
+}  
+#project{
+  background-image: url('bg0.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-blend-mode:lighten;
+  background-attachment: fixed;
+}
+
+#project .h-primary{
+  color: white;
+  font-size: 64px;
+  font-family: 'Russo One', sans-serif;
+  padding-top: 73px;
+}
+
+#project li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#project li a{
+  text-decoration: none;
+  list-style: none;
+  font-family:'Bitter', serif;
+  color: black;
+  font-size: 28px;
+  display: flex;
+  padding-top: 60px;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+#project #content .box1{
+  border: 3px solid white;
+  margin: 5px;
+  margin-left: 190px;
+  margin-top: 40px;
+  border-radius: 30px;
+  background-color: white;
+  margin-right: 283px;
+  
+}
+
+#blog .box{
+  border: 2px solid brown;
+  padding: 40px;
+  margin: 5px;
+  border-radius: 30px;
+  background-color: black;
+}
+#blog .box img{
+  height: 200px;
+  margin: auto;
+  display: block;
+} 
+#about .second img{
+  height: 220px;
+  display: flex;
+  margin:10px;
+  padding: 20px;
+  border-radius: 100%;
+}  
+
+
+#about{
+  background-image: url('web.jpg');
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+}
+#about .probutton{
+  border: 2px solid black;
+  background-color: rgba(66, 60, 60, 0.822);
+  margin-left: 65vh;
+  padding: 6px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Bitter', serif;
+  border-radius: 16px;
+}
+#about .probutton:hover{
+  background-color: white;
+  color: black;
+  padding: 8px;
+}
+
+#about p{
+  font-size: 35px;
+  color:black;
+  display: flex;
+  text-transform: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: wavy;
+  margin-top: 50px;
+  max-width: 950px;
+}
+h2{
+  font-size: 50px;
+  color: rgba(204, 30, 7, 0.932);
+  font-family: 'Russo One', sans-serif;
+}
+.blog-container{
+  background-color: whitesmoke;
+}
+.h-primary{
+  text-align: center;
+  color:black;
+  font-family: 'Russo One', sans-serif;
+  font-size: 45px;
+}
+#navbar{
+  position: sticky;
+  top: 0;
+
+}
+
+#navbar ul{
+  display: flex;
+  list-style: none;
+  background: rgba(0, 0, 0, 0.7) url('bg.jpg');
+  background-blend-mode: darken;
+
+ 
+} 
+#navbar ul li{
+  list-style: none;
+  font-size: large;
+  
+} 
+#navbar ul img{
+  height: 56px;
+  border-radius: 100%;
+}
+#contact{
+  align-items: center;
+  justify-content: center;
+  height: 100%
+}
+#contact p{
+  margin-top: 40px;
+  text-transform: none;
+  font-family: 'Fredoka', sans-serif;
+  color: black;
+  font-size: 1.5rem;
+}
+
+#contact .mailbox {
+  border: 2px solid gray;
+  border-radius: 100px;
+  margin-top: 40px;
+  background-color: rgb(237, 245, 190);
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 400px;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#contact .h-primary{
+  margin-top: 35px;
+}
+#contact .mailbox img{
+  height: 30px ;
+}
+
+#contact .sites a{
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  background-color: gold;
+  color: black;
+  margin-left: 75vh;
+  border: 2px solid gold;
+  border-radius: 15px;
+  padding: 10px 155px;
+}
+#contact .sites a:hover{
+  background-color: white;
+}
+#contact .sites .ahref{
+  padding: 7px 170px;
+
+}
+#contact .mailbox a{
+  font-size: 1.4rem;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(96, 132, 209);
+}
+#contact .mailbox a:hover{
+  text-decoration: underline;
+  padding: 5px 5px;
+  transition: 0.5s ease;
+}
+
+#home{
+  background-image: url('bg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+#navbar ul li a{
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: white;
+  
+} 
+
+#navbar ul li a:hover{
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+} 
+.wrapper{
+  display: inline-flex;
+  margin-top: 200px;
+  text-align: center;
+  font-size: x-large;
+  margin-left: 200px;
+  color: wheat;
+  height: 300px;
+  
+}
+.sctop a{
+  font-weight: bold;
+  text-decoration: none;
+  background-color: blue;
+  border: 2px solid blue;
+  color: white;
+  border-radius: 50%;
+  position: fixed;
+  padding: 6px 16px;
+  bottom: 6px;
+  right: 14px;
+  font-size: 31px;
+}
+.sctop a:hover{
+  background-color: rgb(0, 12, 122);
+}
+
+
+.wrapper .static-txt{
+  font-size: 60px;
+  font-weight: 400;
+}
+.wrapper .dynamic-txts{
+  margin-left: 153px;
+  line-height: 90px;
+  height: 90px;
+  overflow: hidden;
+  
+}
+.dynamic-txts{
+  list-style: none;
+  font-size: 40px;
+}
+.dynamic-txts li span{
+   position: relative;
+
+}
+.dynamic-txts li{
+  color: black;
+  list-style: none;
+  font-weight: 500;
+  font-size: 60px;
+  position: relative;
+  top: 0;
+  animation: slide 6s steps(4) infinite;
+}
+@keyframes slide{
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-left: 2px solid black;
+  animation: type 1.5s steps(30) infinite;
+}
+@keyframes type {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
+

@@ -1,0 +1,80 @@
+#navbar ul{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7) url('bg.jpg');  
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper {
+    display: inline-flex;
+    margin-top: 284px;
+}
+p{
+    font-size: 15px;
+}
+.wrapper .dynamic-txts{
+    margin-left: -49px;
+} 
+#contact .sites a {
+    margin-left: 25vh;}
+#home{
+    height: 70vh;
+}
+.dynamic-txts li {
+    font-size: 45px;}
+#project{
+    height: 75vh;
+}
+
+.sctop a{
+    padding: 7px 31px;
+    bottom: 11px;
+    font-size: 91px;
+}
+#contact .mailbox{
+    padding-left: 200px;
+}
+#project #content .box1 {
+    margin-left: 140px;
+    margin-top: 40px;
+    margin-right: 165px;
+    padding: 12px;
+}
+
+#about {
+    height: 75vh;
+}
+#home p{
+    padding-top: 197px;
+}
+#about .probutton{
+    margin-left: 82vh;
+}
+.dynamic-txts li span::after {
+    top: 1px;}
+#home h1{
+    padding-top: 260px;
+}
+
+#contact {
+    height: 41vh;
+    margin-top: 120px;
+}
+#blog {
+    display: inline-table;
+}  
+#about p {
+    font-size: 35px;
+    color: black;
+    display: inline-flex;
+}
+
+#about .second img {
+    height: 220px;
+    display: flow-root;
+}
+
+
+#home {
+    height: 80vh;
+}
