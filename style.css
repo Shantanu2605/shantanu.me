@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Tilt+Prism&family=Orbitron:wght@600&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Unbounded&family=Montserrat&family=Nosifer&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0 ,0,  0.5) url('https://www.kaspersky.com/content/en-global/images/repository/isc/2020/deep-web-cover.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    
+}
+nav ul{
+    display: flex;    
+    align-items: center;
+}
+nav .logo{
+    color: red;
+    font-family: 'Poiret One';
+    font-size: 35px; 
+}
+nav span{
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    font-family: 'Raleway';
+}
+nav ul li a:hover{
+    border-bottom: 2px solid;
+    transition: 0.4s ease;
+}
+.nav-scroll{
+    background-color: black;
+    transition: 0.5s ease;
+}
+.home{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0 ,0,  0.5) url('https://www.kaspersky.com/content/en-global/images/repository/isc/2020/deep-web-cover.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.home .shortabout .front-link{
+    position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  list-style: none;
+  font-size: 17px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #f70d19;
+  text-transform: uppercase;
+}
+.home .shortabout .front-link::before{
+    content: '';
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 15px;
+    bottom: 7px;
+    border: 10px solid white;
+    border-width: 0 0 2px 2px;
+    transition: 0.2s ease;
+    opacity: 0;
+  }
+  .home .shortabout .front-link::after{
+    content: '';
+    width: 35px;
+    height: 15px;
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    border: 6px solid white;
+    border-width: 2px 2px 0 0;
+    transition:0.3s ease;
+    opacity: 0;
+  }
+  .home .shortabout .front-link:hover::before{
+    left: -5px;
+    bottom: -5px;
+    opacity: 1;
+    height: 25px;
+  }
+  .home .shortabout .front-link:hover::after{
+    top: -4px;
+    right: -4px;
+    opacity: 1;
+  }
+  .home .shortabout .front-link.hide{
+    display: none;
+  }
+  .home .shortabout .front-link:hover{
+    background-color: white;
+    color: #000;
+  }
+.home .shortabout p{
+    font-size: 20px;
+    color: cyan;
+    font-family: 'Ubuntu';
+}
+.home h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Ubuntu';
+}
+.home span{
+    color: orange;
+    font-family: 'Orbitron';
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.home img{
+    height: 50vh;
+    border-radius: 100%;
+}
+.home .shortabout{
+    margin: 10vh;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects h1{
+    font-family: 'Kanit';
+    font-size: 70px;
+    text-align: center;
+
+}
+#projects {
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  table {
+    width: 700px;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  tbody{
+    border: 2px solid black;
+  }
+  table .websk{
+    margin-top: 5px;
+    padding: 12px;
+    background-color: #130df7;
+}
+table .websk:hover{
+    background-color: darkblue;
+}
+.slidetop{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.slidetop a img{
+  height: 60px;
+  margin: 15px;
+  
+}
+.wrapper{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  height: 200px;
+  
+}
+nav #icon{
+  color: white;
+  line-height: 80px;
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  margin-right: 40px;
+}
+
+.wrapper .static-txt{
+  font-size: 60px;
+  font-weight: 400;
+}
+.wrapper .dynamic-txts{
+  border: 2px solid;
+  line-height: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 50px;
+  padding: 8px;
+}
+.dynamic-txts{
+  list-style: none;
+  font-size: 40px;
+}
+.dynamic-txts li span{
+   position: relative;
+   font-family: 'Raleway';
+   padding: 40px;
+   letter-spacing: 10px;
+}
+.dynamic-txts li{
+  color: black;
+  list-style: none;
+  font-weight: 500;
+  font-size: 60px;
+  position: relative;
+  top: 0;
+  animation: slide 6s steps(4) infinite;
+}
+@keyframes slide{
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-left: 2px solid black;
+  animation: type 1.5s steps(30) infinite;
+}
+@keyframes type {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
+.ending{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+.ending img{
+  height: 20vh;
+  border-radius: 100%;
+  margin: 25px;
+  animation: logo 7s infinite;
+}
+@keyframes logo{
+  0%{box-shadow: 2px 2px 20px white;}
+  25%{box-shadow: 2px 2px 20px blue;}
+  50%{box-shadow: 2px 2px 20px orange;}
+  75%{box-shadow: 2px 2px 20px red;}
+  100%{box-shadow: 2px 2px 20px green;}
+}
+.ending h2{
+  color: white;
+  font-family: 'Kanit';
+  font-size: 30px;
+}
+  th {
+    background-color: #333;
+    color: #fff;
+    font-weight: normal;
+    padding: 15px;
+    font-family: 'Raleway';
+    text-align: left;
+    border: 2px solid black;
+  }
+  
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  td img {
+    max-width: 170px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  td h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  td p {
+    font-size: 20px;
+    max-width: 300px;
+    font-family: 'Raleway';
+    margin: 5px 0;
+  }
+  
+  td a {
+    display: inline-block;
+    padding: 16px 16px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: 'Raleway';
+  }
+  
+  td a:hover {
+    background-color: #333;
+  }
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgba(0, 0 ,0,  0.7) url('https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-blend-mode: darken;
+} 
+.contact #conthead{
+  margin: 8vh;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 100px;
+}
+.contact #conthead h1{
+  font-family: 'Kanit';
+  color: white;
+  font-size: 60px;
+}
+.contact .contlink{
+  margin: 5vh;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 100px;
+}
+.contact .contlink a{
+  text-decoration: none;
+  font-family: 'Kanit';
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 30px;
+  color: #fff;
+}
+.contact .contlink a:nth-child(1):hover{
+  color: blue;
+}
+.contact .contlink a:nth-child(7):hover{
+  color: red;
+}
+.contact .contlink a:nth-child(3):hover{
+  color: rgb(255, 0, 255);
+}
+.contact .contlink a:nth-child(9):hover{
+  color: orangered;
+}
+.contact .contlink a:nth-child(5):hover{
+  color: rgb(0, 255, 0);
+}
+.selfpromotion{
+  margin: 10vh;
+}
+.selfpromotion .fiverr{
+  display: flex;
+  border: 2px solid black;
+}
+.selfpromotion .fiverr img{
+  height: 120px;
+  padding: 15px;
+  
+}
+.selfpromotion .fiverr p{
+  font-family: 'Raleway';
+  font-size: 30px;
+  padding: 30px;
+  background: #000;
+  color: #fff;
+}
+.selfpromotion .fiverr a{
+  text-decoration: none;
+  font-family: 20px;
+  font-family: 'Raleway';
+  font-size: 30px;
+  padding: 20px;
+  background-color: orangered;
+  color: #fff;
+}
+.selfpromotion .fiverr a:hover{
+  background: gray;
+  transition: 0.5s ease;
+}

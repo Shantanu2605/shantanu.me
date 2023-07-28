@@ -1,0 +1,122 @@
+.home{
+    display: table;
+}
+nav #icon{
+    display: block;
+}
+nav{
+    width: 100%;
+    background-size: inherit;
+    padding: 10px;
+}
+nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+nav a{
+    display: none;
+}
+nav a.active{
+    display: block;
+}
+nav li{
+    display: block;
+    margin: 5px 0;
+    line-height: 10px;
+}
+nav ul li {
+    padding: 3px 1px;
+}
+th{
+    padding: 8px;
+}
+td{
+    padding: 4px;
+}
+td img {
+    max-width: 75px;
+}
+ul.show{
+    left: 0;
+    display: grid;;
+}
+.slidetop {
+
+    right: 36px;
+}
+.home .shortabout p {
+    max-width: 299px;
+}
+.selfpromotion .fiverr{
+    display: grid;
+}
+.selfpromotion .fiverr img{
+    height: 150px;
+    margin-left: 15vh;
+}
+.home img {
+    height: 40vh;
+    margin-left: 15vh;
+    border-radius: 50%;
+}
+nav ul li a {
+    margin: 5px;
+    padding: 6px;
+}
+.home span{
+    font-size: 41px;
+}
+.selfpromotion {
+    margin: 5vh;
+}
+.home .shortabout .front-link {
+    padding: 9px;
+}
+table {
+    width: 100%;
+}
+.contact {
+    display: table;
+    width: 100%;
+}
+.contact #conthead {
+    padding: 38px;
+    text-align: center;
+}
+.selfpromotion .yt a {
+    font-size: 33px;
+}
+.selfpromotion .fiverr h1 {
+    font-size: 28px;
+}
+.selfpromotion .fiverr p{
+    text-align: center;
+}
+.fiverr-seller-widget .fiverr-seller-content {
+    width: 162px;
+    margin-left: -9vh;
+}
+.ending img {
+    height: 20vh;
+}
+.ending h2 {
+    font-size: 24px;
+    min-width: 206px;
+}
+.contact .contlink {
+    margin: 7vh;
+    padding: 21px;
+    text-align: center;
+}
+.selfpromotion .fiverr {
+    margin-left: 0vh;
+}
+.wrapper{
+    display: none;
+}
